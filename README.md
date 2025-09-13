@@ -13,19 +13,15 @@ Deskripsi singkat & menarik.
 ---
 
 ## 🌟 Fitur Utama  
-- 📝 Tambah, edit, hapus data dengan mudah  
-- 🔍 Filter & pencarian cepat  
 - 📱 Desain **responsive** (mobile & desktop)  
-- ⚡ Performa cepat dengan React + Vite  
-- ☁️ Integrasi API (jika ada)  
+- ⚡ Performa cepat dengan React + Vite + Typescript
 
 ---
 
 ## 🛠️ Teknologi yang Digunakan  
 - ⚛️ [React](https://react.dev/)  
-- 🎨 [Tailwind CSS](https://tailwindcss.com/) / Chakra UI / Bootstrap  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/)
 - ⚡ [Vite](https://vitejs.dev/) / Create React App  
-- 🔗 [Axios](https://axios-http.com/)  
 
 ---
 
@@ -33,7 +29,7 @@ Deskripsi singkat & menarik.
 Clone & jalankan di lokal:  
 
 ```bash
-git clone https://github.com/username/project-name.git
-cd project-name
+git clone https://github.com/conelo03/keda-tech-test.git
+cd keda-tech-test
 npm install
 npm run dev
