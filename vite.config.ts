@@ -7,9 +7,10 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   test: {
-    globals: true, // pakai global seperti Jest
-    environment: 'jsdom', // untuk testing React DOM
+    globals: true,
+    environment: 'jsdom',
     setupFiles: './src/setupTests.ts',
     include: ['src/**/*.{test,spec}.{ts,tsx}'],
   },
+  base: '/',
 })
