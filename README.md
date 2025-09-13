@@ -1,69 +1,39 @@
-# React + TypeScript + Vite
+# ✨ Project Name  
+Deskripsi singkat & menarik.  
+> Contoh: *"Aplikasi To-Do modern dengan React, desain minimalis, cepat, dan mudah digunakan untuk meningkatkan produktivitas harian."*  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## 🚀 Demo  
+🔗 [Live Demo](https://your-demo-link.com)  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Preview](./screenshot.png)  
+*(Tambahkan screenshot/gif biar lebih menarik)*  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌟 Fitur Utama  
+- 📝 Tambah, edit, hapus data dengan mudah  
+- 🔍 Filter & pencarian cepat  
+- 📱 Desain **responsive** (mobile & desktop)  
+- ⚡ Performa cepat dengan React + Vite  
+- ☁️ Integrasi API (jika ada)  
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Teknologi yang Digunakan  
+- ⚛️ [React](https://react.dev/)  
+- 🎨 [Tailwind CSS](https://tailwindcss.com/) / Chakra UI / Bootstrap  
+- ⚡ [Vite](https://vitejs.dev/) / Create React App  
+- 🔗 [Axios](https://axios-http.com/)  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## 📦 Instalasi  
+Clone & jalankan di lokal:  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+```bash
+git clone https://github.com/username/project-name.git
+cd project-name
+npm install
+npm run dev
