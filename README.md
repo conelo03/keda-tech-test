@@ -1,6 +1,6 @@
-# ✨ Project Name  
-Deskripsi singkat & menarik.  
-> Contoh: *"Aplikasi To-Do modern dengan React, desain minimalis, cepat, dan mudah digunakan untuk meningkatkan produktivitas harian."*  
+# ✨ UsahaPro
+🚀 Solusi SaaS modern untuk membantu bisnis Anda lebih **efisien, cepat, dan hemat biaya**.  
+> *All-in-one platform untuk [problem yang diselesaikan produkmu].*  
 
 ---
 
@@ -8,7 +8,6 @@ Deskripsi singkat & menarik.
 🔗 [Live Demo](https://your-demo-link.com)  
 
 ![Preview](./screenshot.png)  
-*(Tambahkan screenshot/gif biar lebih menarik)*  
 
 ---
 
