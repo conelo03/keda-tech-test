@@ -17,10 +17,19 @@
 
 ---
 
-## 🛠️ Teknologi yang Digunakan  
-- ⚛️ [React](https://react.dev/)  
-- 🎨 [Tailwind CSS](https://tailwindcss.com/)
-- ⚡ [Vite](https://vitejs.dev/) / Create React App  
+## 🛠️ Tech Stack & Library  
+
+### Frontend  
+- **React 19** – library UI utama untuk membangun komponen interaktif  
+- **TypeScript** – menambah type safety agar code lebih maintainable  
+- **Tailwind CSS** – styling modern, utility-first untuk desain responsif  
+- **Framer Motion** – animasi halus & interaktif  
+
+### Tools / Utilities  
+- **ESLint & Prettier** – menjaga konsistensi style & kualitas code  
+
+### Deployment  
+- **Vercel** – hosting cepat, optimasi otomatis untuk Next.js  
 
 ---
 
